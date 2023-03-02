@@ -1,2 +1,2 @@
-+true;
-!'Lydia';
+console.log(+true);
+console.log(!'Lydia');
