@@ -1,1 +1,1 @@
-console.log(typeof typeof 1);
+console.log(typeof typeof "Sanjeev");

@@ -1,3 +1,3 @@
-!!null;
-!!'';
-!!1;
+console.log(!!null);
+console.log(!!'');
+console.log(!!1);

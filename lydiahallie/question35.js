@@ -1,4 +1,4 @@
-[
+const res = [
   [0, 1],
   [2, 3],
 ].reduce(
@@ -7,3 +7,4 @@
   },
   [1, 2]
 );
+console.log(res)
