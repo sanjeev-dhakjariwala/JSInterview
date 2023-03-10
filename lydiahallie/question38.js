@@ -1,1 +1,1 @@
-[...'Lydia'];
+console.log([...'Lydia']);
