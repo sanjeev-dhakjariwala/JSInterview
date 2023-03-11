@@ -1,7 +1,13 @@
-const keys = ["name", "age"]
-const values = ["Lydia", 22]
+const createMember = ({ email, address = {} }) => {
+  const validEmail = /.+\@.+\..+/.test(email);
+  if (!validEmail) {
+    throw new Error("Valid email pls");
+  }
+  return {
+    email,
+    address: address ? address : null,
+  };
+};
 
-const method = /* ?? */
-Object[method](keys.map((_, i) => {
-	return [keys[i], values[i]]
-})) // { name: "Lydia", age: 22 }
+const member = createMember({ email: "my@email.com" });
+console.log(member);

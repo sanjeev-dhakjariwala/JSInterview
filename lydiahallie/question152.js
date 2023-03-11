@@ -1,12 +1,10 @@
-const createMember = ({ email, address = {}}) => {
-	const validEmail = /.+\@.+\..+/.test(email)
-	if (!validEmail) throw new Error("Valid email pls")
+let randomValue = { name: "Lydia" };
+randomValue = 23;
 
-	return {
-		email,
-		address: address ? address : null
-	}
+console.log(typeof randomValue);
+
+if (!typeof randomValue === "number") {
+  console.log("It's not a string!");
+} else {
+  console.log("Yay it's a string!");
 }
-
-const member = createMember({ email: "my@email.com" })
-console.log(member)
