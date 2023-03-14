@@ -8,3 +8,4 @@ const num2 = increasePassedNumber(num1);
 
 console.log(num1);
 console.log(num2);
+console.log(num);

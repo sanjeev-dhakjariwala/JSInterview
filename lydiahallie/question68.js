@@ -7,5 +7,18 @@ function* startGame() {
 }
 
 const game = startGame();
-console.log(/* 1 */); // Do you love JavaScript?
-console.log(/* 2 */); // JavaScript loves you back ❤️
+console.log(game.next().value); // Do you love JavaScript?
+console.log(game.next("Yes").value); // JavaScript loves you back ❤️
+
+// function* generateNumbers() {
+//   let i = 0;
+//   while (true) {
+//     yield i++;
+//   }
+// }
+
+// const generator = generateNumbers();
+
+// console.log(generator.next().value); // 0
+// console.log(generator.next().value); // 1
+// console.log(generator.next().value); // 2
