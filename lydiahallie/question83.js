@@ -1,3 +1,6 @@
 function getName(name) {
-    const hasName = //
+  const hasName = !!name;
+  console.log(hasName);
 }
+
+getName("Mike");
