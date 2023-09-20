@@ -1,2 +1,2 @@
 const sum = eval("10*10+5");
-console.log(sum);
+console.log(sum); // 105

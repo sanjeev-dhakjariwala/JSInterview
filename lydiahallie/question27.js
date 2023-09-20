@@ -5,3 +5,9 @@ const baz = () => console.log("Third");
 bar();
 foo();
 baz();
+
+/**
+ * First
+ * Third
+ * Second
+ */

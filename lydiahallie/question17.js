@@ -3,3 +3,8 @@ function getAge(...args) {
 }
 
 getAge(21);
+
+/**
+ * The rest parameter (...args) lets us "collect" all remaining arguments into an array. 
+ * An array is an object, so typeof args returns "object"
+ */

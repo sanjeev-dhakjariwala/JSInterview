@@ -9,3 +9,7 @@ function checkAge(data) {
 }
 
 checkAge({ age: 18 });
+
+/**
+ * This condition will always return 'false' since JavaScript compares objects by reference, not value.
+ */

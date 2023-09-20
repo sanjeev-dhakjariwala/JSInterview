@@ -3,3 +3,4 @@ function sayHi() {
 }
 
 console.log(typeof sayHi());
+console.log(typeof sayHi);
