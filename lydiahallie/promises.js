@@ -25,16 +25,23 @@ const callBackHell = callBack(
     console.log(reject);
   }
 );
-const promiseEx = new Promise((resolve, reject) => {
-  const val = Math.random();
-  if (val > 0.5) {
-    resolve("Promise Successful!!!");
-  } else {
-    reject("Promise rejected!!!");
-  }
-});
 
-const ans = promiseEx
+const callBackUsingPromise = (i) => {
+  return new Promise((resolve, reject) => {
+    const rand = Math.random();
+    if (rand < 0.5) {
+      resolve(`Promise resolved ${i}!!!`);
+    } else {
+      reject(`Promise rejected!!!`);
+    }
+  });
+};
+
+const ans = callBackUsingPromise(1)
+  .then((res) => {
+    console.log(res);
+    return callBackUsingPromise(2);
+  })
   .then((res) => {
     console.log(res);
   })
