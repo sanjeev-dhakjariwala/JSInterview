@@ -1,4 +1,4 @@
-"use strict"
+// "use strict"
 let greeting;
 greetign = {}; // Typo!
 console.log(greetign);
