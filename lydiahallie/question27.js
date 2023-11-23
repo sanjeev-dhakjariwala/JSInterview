@@ -6,8 +6,3 @@ bar();
 foo();
 baz();
 
-/**
- * First
- * Third
- * Second
- */
