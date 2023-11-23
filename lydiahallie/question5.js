@@ -6,6 +6,6 @@ const mouse = {
   name: "Mickey",
   small: true,
 };
-console.log(mouse[bird.size]); // true
-console.log(mouse[bird["size"]]); // true
-console.log(mouse.bird.size); // error
+console.log(mouse[bird.size]); 
+console.log(mouse[bird["size"]]);
+console.log(mouse.bird.size);

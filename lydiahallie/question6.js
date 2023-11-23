@@ -3,7 +3,7 @@ let d;
 
 d = c;
 c.greeting = "Hello";
-console.log(d.greeting); // Hello
+console.log(d.greeting);
 
 /**
  * Shallow Copy -> Point by reference so any change in one will be reflected in the other

@@ -10,12 +10,12 @@ class Chameleon {
 }
 
 const freddie = new Chameleon({ newColor: "purple" });
-console.log(freddie.colorChange("orange")); // Some error
+console.log(freddie.colorChange("orange"));
 
 /**
  * The colorChange function is static.
- *  Static methods are designed to live only on the constructor in which they are created,
- *  and cannot be passed down to any children or called upon class instances.
- *  Since freddie is an instance of class Chameleon, the function cannot be called upon it.
- *  A TypeError is thrown.
+ * Static methods are designed to live only on the constructor in which they are created,
+ * and cannot be passed down to any children or called upon class instances.
+ * Since freddie is an instance of class Chameleon, the function cannot be called upon it.
+ * A TypeError is thrown.
  */
