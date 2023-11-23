@@ -7,4 +7,4 @@ const res = [
   },
   [1, 2]
 );
-console.log(res)
+console.log(res);
