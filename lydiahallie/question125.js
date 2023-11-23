@@ -1,4 +1,4 @@
-const name = 'Lydia Hallie';
+const name = "Lydia Hallie";
 const age = 21;
 
 console.log(Number.isNaN(name));

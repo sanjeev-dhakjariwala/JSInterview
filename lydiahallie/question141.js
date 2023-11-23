@@ -3,4 +3,4 @@ const person = {
     age: 21
   }
   
-  [...person] // ["Lydia Hallie", 21]
+//  [...person] // ["Lydia Hallie", 21]

@@ -1,4 +1,4 @@
-const myPromise = Promise.resolve('Woah some cool data');
+const myPromise = Promise.resolve("Woah some cool data");
 
 (async () => {
   try {
@@ -6,6 +6,6 @@ const myPromise = Promise.resolve('Woah some cool data');
   } catch {
     throw new Error(`Oops didn't work`);
   } finally {
-    console.log('Oh finally!');
+    console.log("Oh finally!");
   }
 })();

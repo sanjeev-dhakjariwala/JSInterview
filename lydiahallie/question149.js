@@ -1,3 +1,7 @@
+/**
+ * Important concept to understand Promises in JS
+ */
+
 const promise1 = Promise.resolve("First");
 const promise2 = Promise.resolve("Second");
 const promise3 = Promise.reject("Third");
