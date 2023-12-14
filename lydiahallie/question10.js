@@ -3,3 +3,5 @@ function bark() {
 }
 
 bark.animal = "dog";
+
+console.log(bark);
