@@ -5,4 +5,5 @@ const config = {
   },
 };
 
-console.log(config.language);
+console.log(config.language());
+console.log(config.languages);

@@ -1,11 +1,15 @@
 const myMap = new Map();
 const myFunc = () => 'greeting';
+const myFunc1 = () => 'greeting';
 
 myMap.set(myFunc, 'Hello world!');
+myMap.set(myFunc1, 'Hello world!');
+
+console.log(myMap)
 
 //1
-myMap.get('greeting');
+console.log(myMap.get('greeting'));
 //2
-myMap.get(myFunc);
+console.log(myMap.get(myFunc));
 //3
-myMap.get(() => 'greeting');
+console.log(myMap.get(() => 'greeting'));

@@ -3,7 +3,7 @@ const person = {
     age: 21,
   };
   
-  const changeAge = (x = { ...person }) => (x.age += 1);
+  const changeAge = (x = { ...person }) => x.age += 1;
   const changeAgeAndName = (x = { ...person }) => {
     x.age += 1;
     x.name = 'Sarah';
