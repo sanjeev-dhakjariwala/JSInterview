@@ -1,8 +1,8 @@
 const emojis = ["✨", "🥑", "😍"];
 
-emojis.map((x) => x + "✨");
-emojis.filter((x) => x !== "🥑");
-emojis.find((x) => x !== "🥑");
-emojis.reduce((acc, cur) => acc + "✨");
-emojis.slice(1, 2, "✨");
-emojis.splice(1, 2, "✨");
+console.log(emojis.map((x) => x + "✨")); //["✨✨", "🥑✨", "😍✨"]
+console.log(emojis.filter((x) => x !== "🥑")); //["✨","😍"]
+console.log(emojis.find((x) => x !== "🥑")); //✨
+console.log(emojis.reduce((acc, cur) => acc + "✨")); //✨✨✨
+console.log(emojis.slice(1, 2, "✨")); //["✨", "✨", "😍"]
+console.log(emojis.splice(1, 2, "✨")); //[ '🥑', '😍' ]
