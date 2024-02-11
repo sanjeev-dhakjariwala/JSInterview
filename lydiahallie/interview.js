@@ -3,14 +3,16 @@ function fibo(n){
     if(n == 0 || n == 1){
         return 1;
     }
-/*     dp = []
+/*  
+    dp = []
     dp[0] = 1
     dp[1] = 1
 
     for(let i = 2; i <= n; i++){
         dp[i] = dp[i - 1] + dp[i - 2]; // 2
     }
-    return dp[n]; */
+    return dp[n];
+ */
     let a = 1;
     let b = 1;
     let c;
