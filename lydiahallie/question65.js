@@ -1,6 +1,6 @@
-console.log(Number(2) === Number(2)); // true
-console.log(Boolean(false) === Boolean(false)); // true
-console.log(Symbol('foo') === Symbol('foo')); // true
+console.log(Number(2) === Number(2));
+console.log(Boolean(false) === Boolean(false));
+console.log(Symbol('foo') === Symbol('foo'));
 
 /**
  * Every Symbol is entirely unique. The purpose of the argument passed to the Symbol is to give the Symbol a description. 

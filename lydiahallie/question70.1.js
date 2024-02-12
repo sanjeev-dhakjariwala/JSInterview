@@ -33,3 +33,10 @@ multiply(2, "Sanjeev")
   .catch((err) => {
     console.log(err);
   });
+multiply(2, 3)
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });

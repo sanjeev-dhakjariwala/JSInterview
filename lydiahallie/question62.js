@@ -6,5 +6,5 @@ D: number or object */
 
 const fun = (a = 0,b = 0) => a + b;
 
-console.log(fun()); // 0
-console.log(fun(1, 2)); // 3
+console.log(fun());
+console.log(fun(1, 2));

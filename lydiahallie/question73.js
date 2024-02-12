@@ -1,6 +1,6 @@
 const { firstName: myName } = { firstName: "Lydia" };
 
-// console.log(myName);
+console.log(myName);
 console.log(firstName);
 
 /**

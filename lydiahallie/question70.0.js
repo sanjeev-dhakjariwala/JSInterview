@@ -13,4 +13,3 @@ const data = async () => {
 };
 
 data();
-console.log(data);
